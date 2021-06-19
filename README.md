@@ -154,6 +154,28 @@
 ```
 <a href="#t1"></a>
 ```
-<h2 id = "t1"></a>
+<h2 id = "t1">제목</a>
 ```
 
+
+### Table Element
+
+> 기본 사용 태그 : table, thead, tbody, tr, th, rd
+> 
+> 열 제목 : thead(table head), th(table heading)
+> 
+> 표 내용 : tbody(table body), td(table data)
+> 
+> 행 : tr(table row) 
+
+https://www.tablesgenerator.com/html_tables
+
+
+### Image element
+> Tag : img
+> Attribute : src(image 위치, 파일명), alt(대체텍스트)
+` : backtick
+```
+<img src = "image.jpg alt="대체텍스트">
+
+```
