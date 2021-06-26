@@ -44,6 +44,13 @@
  ```
  <a href="http://www.naver.com">naver</a>
  ```
+
+### HTML 페이지에서 표시하는 콘텐츠
+- 텍스트 콘텐츠
+- 멀티미디어 콘텐츠(임베디드 콘텐츠)
+  - 이미지
+  - 비디오
+  - 오디오
  
 ### 제목 태그
 
@@ -179,3 +186,44 @@ https://www.tablesgenerator.com/html_tables
 <img src = "image.jpg alt="대체텍스트">
 
 ```
+
+
+### Video Element
+> 비디오및 오디오 콘텐츠는 용량이 크기 때문에 서버에 저장을 해서 콘텐츠를 제공하면 많은 트래픽이 발생할수 있음
+
+> 트래픽 과부하를 해결하기 위해서 유튜브 서비스를 사용하기도 함
+
+> attribute
+
+> controls : 컨트롤 버튼 표시
+
+> autoplay : 자동재생(* muted와 같이 사용해야 함)
+
+> muted : 음소거
+
+> loop : 반복 재생
+
+### Youtube
+> 비디오 콘텐츠 제공시 서버의 트래픽 과부하를 해결할 수 있는 방법중의 하나
+
+> 매개변수
+
+> controls=1, 0
+
+> autoplay=1, 0 (mute와 같이 사용)
+
+> mute=1, 0
+
+> loop=1, 0(playlist와 같이 사용)
+
+> 텍스트는 HTML 문서에 직접 입력되는 콘텐츠 이미지와 동영상, 오디오 콘텐츠는 외부에서 만들어지는 콘텐츠 이미지, 동영상, 오디오는 직접 입력하는 것이 아니고 외부 파일을 삽입 => 임베드(embed) 콘텐츠
+
+### 웹사이트 템플릿 디자인
+> https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
+
+
+### Container Element(단순 영역 요소)
+>div(division)
+>
+>span
+
